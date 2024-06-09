@@ -1,0 +1,13 @@
+SQL Source Code
+
+django-admin startproject <project name>
+cd <project name>
+python manage.py 
+
+
+from flights.models import *
+Airport.objects.all()
+
+creating superuser
+
+python manage.py createsuperuser
